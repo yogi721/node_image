@@ -14,10 +14,16 @@ Add the following section to your package.json:
         }
     }
 
-# run test
+## run test
 
     npm run test
+
+## Run a specific test file
+
+    npm test -- SomeTestFileToRun
 
 # Comment/Uncomment
 
 vscode: Ctrl+K+C/Ctrl+K+U
+
+# Debugger
